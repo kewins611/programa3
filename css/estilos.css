@@ -1,0 +1,178 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Ajusta el padding del header según tus necesidades */
+    background-color: #929292; /* Color de fondo del padding que cubre el logo y el menú */
+    border-radius: 5px; /* Opcional: Añade bordes redondeados al header */
+}
+
+.logo img {
+    max-height: 75px; /* Ajusta el tamaño del logo según tus necesidades */
+}
+
+nav {
+    /* No es necesario agregar un fondo al nav si el fondo del header lo cubre */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px; /* Espacio entre los elementos del menú */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2E898D; /* Color de las letras del menú */
+}
+
+nav ul li a:hover {
+    color: #1D6A69; /* Color de las letras al pasar el ratón sobre el enlace */
+}
+
+
+
+
+/* Añadido margen para separar el header de la sección de proyectos */
+header {
+    margin-bottom: 60px; /* Más espacio para una separación visual más clara */
+}
+
+.proyectos {
+    background-color: #9DB7CE; /* Color de fondo de la sección */
+    padding: 60px 20px; /* Ajusta el padding para mayor consistencia */
+    border-radius: 10px; /* Bordes redondeados para la sección */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para profundidad */
+}
+
+.contenedor {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.titulo {
+    text-align: center;
+    color: #1D6A69; /* Color del texto del título */
+    font-size: 2.5em; /* Tamaño de fuente del título */
+    margin-bottom: 40px; /* Espacio debajo del título */
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes */
+}
+
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Bordes redondeados en las imágenes */
+    width: 200px; /* Tamaño fijo para las imágenes */
+    height: 150px; /* Altura fija para las imágenes */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* Sombra suave para profundidad */
+    transition: transform 0.3s ease; /* Efecto de transición */
+}
+
+.img-wrapper:hover {
+    transform: scale(1.05); /* Escala la imagen al pasar el ratón */
+}
+
+.imgp {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen al contenedor sin deformarla */
+}
+
+.button-container {
+    position: absolute;
+    top: 10px; /* Espacio desde la parte superior */
+    left: 10px; /* Coloca el botón a la izquierda */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+    padding: 8px 12px;
+    border-radius: 5px; /* Bordes redondeados en el contenedor del botón */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave para profundidad */
+}
+
+.button-container a {
+    color: #1D6A69; /* Color del texto del botón */
+    text-decoration: none;
+    font-size: 0.9em; /* Tamaño de fuente del texto del botón */
+}
+
+.button-container a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón sobre el botón */
+}
+
+.contenedor-2 {
+    text-align: center; /* Centra el contenido de contenedor-2 */
+    margin-top: 40px; /* Espacio arriba del contenedor-2 */
+}
+
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1D6A69;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+.como-empresa {
+    background-color: #9DB7CE;
+    padding: 40px 0; /* Ajusta el padding superior e inferior de la sección */
+    margin-top: 60px; /* Espacio entre la sección de proyectos y la sección como-empresa */
+    border-radius: 10px;
+}
+
+.como-empresa .contenedor-3 {
+    max-width: 1200px; /* Ajusta el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 0 20px; /* Padding horizontal para el contenedor */
+}
+
+.como-empresa .titulo {
+    text-align: center;
+    color: #15388B; /* Color del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.como-empresa .bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.como-empresa .bio h3 {
+    color: #15388B; /* Color del subtítulo */
+    margin-bottom: 20px; /* Espacio debajo del subtítulo */
+}
+
+.como-empresa .bio p {
+    padding: 42px 292px; /* Ajusta el padding con w585 y h84 */
+    background-color: #15388B;
+    color: #ffffff; /* Color de texto blanco para contraste */
+    margin-bottom: 20px; /* Espacio entre párrafos */
+    max-width: 1000px; /* Ajusta el ancho máximo de los párrafos */
+    text-align: center; /* Alinea el texto al centro */
+    border-radius: 10px;
+}
